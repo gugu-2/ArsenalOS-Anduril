@@ -1,0 +1,45 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="20" x2="1230" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0A0A"/>
+      <stop offset="0.5" stop-color="#111111"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="230" y1="110" x2="1040" y2="550" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9FF6A"/>
+      <stop offset="1" stop-color="#8AE7C1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" rx="32" fill="url(#bg)"/>
+  <g opacity="0.18">
+    <path d="M0 110H1280" stroke="#DFF140" stroke-width="1"/>
+    <path d="M0 190H1280" stroke="#DFF140" stroke-width="1"/>
+    <path d="M0 270H1280" stroke="#DFF140" stroke-width="1"/>
+    <path d="M0 350H1280" stroke="#DFF140" stroke-width="1"/>
+    <path d="M0 430H1280" stroke="#DFF140" stroke-width="1"/>
+    <path d="M0 510H1280" stroke="#DFF140" stroke-width="1"/>
+    <path d="M170 0V640" stroke="#DFF140" stroke-width="1"/>
+    <path d="M340 0V640" stroke="#DFF140" stroke-width="1"/>
+    <path d="M510 0V640" stroke="#DFF140" stroke-width="1"/>
+    <path d="M680 0V640" stroke="#DFF140" stroke-width="1"/>
+    <path d="M850 0V640" stroke="#DFF140" stroke-width="1"/>
+    <path d="M1020 0V640" stroke="#DFF140" stroke-width="1"/>
+  </g>
+  <rect x="86" y="80" width="400" height="400" rx="72" fill="#0D0D0D" stroke="url(#glow)" stroke-width="6"/>
+  <path d="M286 174L386 230V330L286 386L186 330V230L286 174Z" stroke="url(#glow)" stroke-width="14"/>
+  <path d="M286 218L334 248V308L286 352L238 308V248L286 218Z" stroke="#DFF140" stroke-width="10"/>
+  <path d="M235 281H337" stroke="#DFF140" stroke-width="12" stroke-linecap="round"/>
+  <path d="M235 242H337" stroke="#DFF140" stroke-width="12" stroke-linecap="round"/>
+  <path d="M235 320H337" stroke="#DFF140" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="286" cy="282" r="11" fill="#90FFCE"/>
+
+  <g>
+    <text x="560" y="268" fill="#F5F5F5" font-size="88" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="10">ARSENAL</text>
+    <text x="560" y="348" fill="#DFF140" font-size="86" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="10">OS</text>
+    <text x="560" y="408" fill="#A7A7A7" font-size="24" font-family="Courier New, monospace" letter-spacing="8">// COMMAND / PLM / MES / WMS</text>
+  </g>
+  <g opacity="0.95">
+    <rect x="560" y="456" width="200" height="42" rx="21" fill="#DFF140"/>
+    <text x="584" y="484" fill="#050505" font-size="19" font-family="Courier New, monospace" font-weight="700" letter-spacing="4">LIVE OPS</text>
+  </g>
+</svg>

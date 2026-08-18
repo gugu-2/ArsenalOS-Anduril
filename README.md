@@ -4,7 +4,12 @@ An industrial command-and-control dashboard for modern manufacturing operations,
 
 ## Hero
 
-![ArsenalOS Anduril dashboard preview](src/assets/hero.png)
+![ArsenalOS Anduril banner](public/github-banner.svg)
+
+## Brand Assets
+
+- Primary mark: [public/brand-mark.svg](public/brand-mark.svg)
+- GitHub banner: [public/github-banner.svg](public/github-banner.svg)
 
 ## Why ArsenalOS Anduril
 
