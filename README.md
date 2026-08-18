@@ -1,25 +1,40 @@
 # ArsenalOS Anduril
 
-ArsenalOS Anduril is a futuristic industrial operations dashboard built with React, TypeScript, and Vite. It presents a dark, tactical command-center interface for monitoring production, product lifecycle, manufacturing execution, and warehouse operations in a single system.
+An industrial command-and-control dashboard for modern manufacturing operations, designed to unify production visibility, lifecycle management, shop-floor execution, and supply chain awareness into one high-contrast operational interface.
 
-## Overview
+## Hero
 
-This application simulates an end-to-end operational control surface for a modern manufacturing environment, including:
+![ArsenalOS Anduril dashboard preview](src/assets/hero.png)
 
-- Command Center overview dashboards
-- Product Lifecycle Management (PLM) views
-- Manufacturing Execution System (MES) work instructions
-- Supply chain and warehouse monitoring
-- Real-time telemetry styling inspired by defense-tech system interfaces
+## Why ArsenalOS Anduril
 
-## Features
+ArsenalOS Anduril is built for teams that need a clearer operational picture across the entire production system. It combines planning, execution, and logistics into a single tactical dashboard inspired by advanced control-room design principles.
 
-- Responsive industrial dashboard layout
-- Sidebar-based navigation between operational domains
-- KPI cards for throughput, quality, inventory, and anomalies
-- Recharts-based telemetry and stock monitoring visuals
-- Motion-driven interface transitions using Framer Motion
-- Clean, high-contrast cyber-industrial design system
+### Core capabilities
+
+- Real-time command center monitoring
+- Product lifecycle and engineering BOM visibility
+- Manufacturing execution workflows for active stations
+- Inventory and logistics risk tracking
+- High-contrast operational design for focused decision-making
+
+## Feature Highlights
+
+### 1. Command Center
+
+A live operating overview with performance metrics, quality KPIs, and build event monitoring for high-level system awareness.
+
+### 2. PLM View
+
+Engineering-driven product structure, revision tracking, and component detail review across critical assemblies.
+
+### 3. MES View
+
+Station-by-station work instructions, anomaly reporting, and operator workflow controls for the production floor.
+
+### 4. WMS View
+
+Inventory health monitoring, critical shortages, and logistics feed visibility across inbound and outbound operations.
 
 ## Tech Stack
 
@@ -32,54 +47,104 @@ This application simulates an end-to-end operational control surface for a moder
 
 ## Project Structure
 
-- src/App.tsx — main app shell and tab routing
-- src/components/DashboardView.tsx — command center overview
-- src/components/PLMView.tsx — product lifecycle management module
-- src/components/MESView.tsx — manufacturing execution module
-- src/components/WMSView.tsx — warehouse and logistics module
-- src/index.css — global theme, layout, and styling
+```text
+src/
+├── App.tsx
+├── index.css
+├── main.tsx
+├── assets/
+├── components/
+│   ├── DashboardView.tsx
+│   ├── MESView.tsx
+│   ├── PLMView.tsx
+│   └── WMSView.tsx
+└── ...
+```
 
-## Getting Started
+## Local Development
 
 ### Prerequisites
 
-- Node.js 18 or later
-- npm
+- Node.js 18+
+- npm 9+
 
-### Install dependencies
+### Install
 
+```bash
 npm install
+```
 
-### Run the app locally
+### Run locally
 
+```bash
 npm run dev
+```
 
-The app will be available in the browser via the local Vite development URL.
+Then open the local Vite URL shown in the terminal.
 
-### Build for production
+### Production build
 
+```bash
 npm run build
+```
 
-### Preview production build
+### Preview production output
 
+```bash
 npm run preview
+```
+
+## Deployment
+
+### Deploy to Vercel
+
+1. Push the repository to GitHub.
+2. Sign in to Vercel and choose Import Project.
+3. Select this repository.
+4. Use the following settings:
+   - Framework Preset: Vite
+   - Build Command: `npm run build`
+   - Output Directory: `dist`
+5. Click Deploy.
+
+Vercel will automatically detect the Vite configuration and publish the project.
+
+### Deploy to Netlify
+
+1. Push the repository to GitHub.
+2. In Netlify, click Add new site > Import an existing project.
+3. Connect the repository.
+4. Configure the build settings:
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+5. Deploy the site.
+
+### Environment Notes
+
+This project is a static front-end application, so no server-side environment variables are required for the default setup.
 
 ## Scripts
 
-- npm run dev — starts the Vite development server
-- npm run build — runs TypeScript checks and produces a production bundle
-- npm run preview — serves the production build locally
-- npm run lint — runs the project linting configuration
+```bash
+npm run dev
+npm run build
+npm run preview
+npm run lint
+```
 
-## Design Notes
+## Design Philosophy
 
-The interface is intentionally styled as a tactical control room with:
+The interface is intentionally designed around a tactical operational aesthetic:
 
-- dark graphite surfaces
-- acid-green accents
-- monochrome telemetry panels
-- dense status indicators and operational summaries
+- dark industrial surfaces
+- high-contrast telemetry panels
+- bright production signals and status indicators
+- immersive monitoring workflows for teams in motion
 
 ## License
 
-This project is provided as a front-end prototype and is intended for demonstration or internal operational UI exploration.
+This project is a front-end prototype for demonstration and operational UI concept exploration.
+
+## Contributing
+
+Contributions are welcome. For feature work or UI improvements, open a pull request with a short summary of the change and screenshots when relevant.
